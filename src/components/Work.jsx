@@ -5,7 +5,7 @@ import { data } from '../constants/index'
 const Work = () => {
     return (
         <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-5'>Work</h1>
+            <h1 className='text-4xl font-bold text-center text-[#fbaebd] mb-5'>Work</h1>
             {data.map((item, idx)=>(
                 <Workitem 
                 key={idx} 
