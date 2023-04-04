@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1 className='text-4xl font-bold text-center text-[#fbaebd]'>Projects</h1>
-      <p className='text-center py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquam vitae ut unde eius, itaque ratione quaerat quae fugiat minima beatae. Placeat dolor optio corporis ipsum suscipit nisi recusandae culpa.</p>
+      <p className='text-center py-8'>The projects listed below are just a few examples of the diverse range of projects that I have been developing for clients and personal growth. I have worked on various projects ranging from website development, mobile app development, and e-commerce solutions, to content creation and social media management. Each project has presented unique challenges and opportunities for growth, allowing me to expand my skillset and gain valuable experience. Through my work, I have learned to be adaptable and flexible in my approach, always striving to deliver the best possible results for my clients. I am passionate about using technology and creativity to bring ideas to life and make a positive impact in the world.</p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <Projectitem img={caviarlife} title='CaviarLife App'/>
         <Projectitem img={hoobank} title='HooBank App'/>
